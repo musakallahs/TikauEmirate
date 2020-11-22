@@ -29,28 +29,42 @@
     <link rel="stylesheet" href="assets/css/Swiper-Slider-Card-For-Blog-Or-Product.css">
     <link rel="stylesheet" href="assets/css/Team-with-rotating-cards.css">
     <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/news.css">
 </head>
 
 <body>
     <div>
         <header>
             <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white transparency border-bottom border-light" id="transmenu">
-                <div class="container"><a class="navbar-brand text-warning text-success" href="#header"><img src="assets/img/logo/logo.png"></a><button data-toggle="collapse" class="navbar-toggler collapsed" data-target="#navcol-1"><span></span><span></span><span></span></button>
-                    <div
-                        class="collapse navbar-collapse" id="navcol-1">
+                <div class="container">
+                    <a class="navbar-brand text-warning text-success" href="#header"><img src="assets/img/logo/logo.png"></a><button data-toggle="collapse" class="navbar-toggler collapsed" data-target="#navcol-1"><span></span><span></span><span></span></button>
+                    <div class="collapse navbar-collapse" id="navcol-1">
                         <ul class="nav navbar-nav ml-auto">
                             <li class="nav-item" role="presentation"><a class="nav-link text-dark" href="index.html">Home</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link text-dark" href="about.html">About</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link text-dark" href="events.html">Events</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link text-dark" href="contact.html">Contact</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    More
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="palace.html">Palace</a>
+                                    <a class="dropdown-item" href="emirs.html">Emirs</a>
+                                    <a class="dropdown-item" href="title-holders.html">Title Holders</a>
+                                    <a class="dropdown-item" href="museum.html">Museum</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Admin Login</a>
+                                </div>
+                            </li>
+
                         </ul>
+                    </div>
                 </div>
-    </div>
-    </nav>
-    <div class="d-flex align-items-center" style="height: 10vh;">
-        <div class="text-center w-100 text-white"></div>
-    </div>
-    </header>
+            </nav>
+            <div class="d-flex align-items-center" style="height: 10vh;">
+                <div class="text-center w-100 text-white"></div>
+            </div>
+        </header>
     </div>
     <section id="carousel">
         <div class="carousel slide" data-ride="carousel" id="carousel-1">
@@ -85,30 +99,159 @@
                 </div>
             </div>
             <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><i class="fa fa-chevron-left"></i><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next"><i class="fa fa-chevron-right"></i><span class="sr-only">Next</span></a></div>
-            <ol
-                class="carousel-indicators">
+            <ol class="carousel-indicators">
                 <li data-target="#carousel-1" data-slide-to="0"></li>
                 <li data-target="#carousel-1" data-slide-to="1"></li>
                 <li data-target="#carousel-1" data-slide-to="2" class="active"></li>
                 <li data-target="#carousel-1" data-slide-to="3"></li>
-                </ol>
+            </ol>
         </div>
     </section>
-    <div class="card-group">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="display-4 card-title text-center">Map</h4><img class="img-fluid" src="assets/img/palace/map.jpg"></div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <h4 class="display-4 card-title text-center">Evolution of Tikau Emirate</h4>
-                <p class="card-text m-5 lead">Like other counterpart emirates in Northern Nigeria, Tikau Emirate traces its historical emergence through oral legends. According to many oral traditions, the founder of Tikau emirate Dynasty was a hero called Shikau, who with his three
+    <div class="container shadow pb-3 mt-3">
+        <div class="row">
+            <div class="col-md-6 text-center"><img  class="img-fluid" src="assets/img/emirs/visit_bg.png"></div>
+            <div class="col-md-6">
+                <h4 class="shelf-title text-center my-4">Evolution of Tikau Emirate</h4><p class="lead text-justify p-2">
+                    Like other counterpart emirates in Northern Nigeria, Tikau Emirate traces its historical emergence through oral legends. According to many oral traditions, the founder of Tikau emirate Dynasty was a hero called Shikau, who with his three
                     brothers initially lived with their people by the side of Lake Chad during the rise of Kanem Empire in the 5th Century. They subsequently left the shores of Lake Chad for Ngazargamu, as a result of rampant attacks from Wadai. From
-                    there, they moved further south where they settled and founded a place near Dapchi which was named after their leader (Shikau).<br></p> <a class="btn btn-primary ml-5" href="about.html">Read more....</a> </div>
+                    there, they moved further south where they settled and founded a place near Dapchi which was named after their leader (Shikau).<br>
+                </p> <a class="btn btn-primary ml-5" href="about.html">Read more....</a>
+            </div>
         </div>
     </div>
+
+    <h1 class="text-center mt-5">News Bulletin (Option 1)</h1>
+    <div class="blog-slider">
+        <div class="blog-slider__wrp swiper-wrapper">
+            <div class="blog-slider__item swiper-slide">
+                <div></div>
+                <div class="blog-slider__img"><img src="assets/img/blog/single_blog_1.jpg"></div>
+                <div class="blog-slider__content"><span class="blog-slider__code">26 December 2019</span><div class="blog-slider__title">Zakat and Waqaf</div><div class="blog-slider__text">This is an annual event.</div>
+                                                                                                                                                              <a class="btn btn-primary" href="post.html">Read more....</a>
+                <a class="class=&quot;blog-slider__button" href="#">READ MORE</a></div>
+            </div>
+            <div class="blog-slider__item swiper-slide">
+                <div></div>
+                <div class="blog-slider__img"><img src="assets/img/blog/single_blog_2.jpg"></div>
+                <div class="blog-slider__content"><span class="blog-slider__code">26 December 2019</span><div class="blog-slider__title">Horse racing during eid celebration</div><div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div><a class="class=&quot;blog-slider__button" href="#">READ MORE</a><a class="btn btn-primary" href="post.html">Read more....</a></div>
+            </div>
+            <div class="blog-slider__item swiper-slide">
+                <div></div>
+                <div class="blog-slider__img"><img src="assets/img/blog/single_blog_3.jpg"></div>
+                <div class="blog-slider__content"><span class="blog-slider__code">26 December 2019</span><div class="blog-slider__title">World dessertification day 2019</div><div class="blog-slider__text">Launching of World Day to Combat Desertification 2019 hosted by EMIR of Tikau Alh Mohammed Abubakar Ibn Grema at Sabon Garin Nangere Yobe State </div><a class="class=&quot;blog-slider__button" href="#">READ MORE</a><a class="btn btn-primary" href="post.html">Read more....</a></div>
+            </div>
+            <div class="blog-slider__pagination"></div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-10 col-lg-10 ">
+                <!-- Section Tittle -->
+                <div class="section-tittle text-center mb-80">
+                    <h1 class="mt-5">News Bulletin (Option 2)</h1>
+
+                    <div class="blog_left_sidebar">
+                        <article class="blog_item">
+                            <div class="blog_item_img">
+                                <img class="card-img rounded-0" src="assets/img/blog/single_blog_1.jpg" style="width:650px; height:375px;" alt="">
+                                <a href="blog_details.html" class="blog_item_date">
+                                    <h3>15</h3>
+                                    <p>Jan, 2020</p>
+                                </a>
+                            </div>
+                            <div data-aos="zoom-out-left" data-aos-duration="300" data-aos-delay="300" data-aos-once="false" class="blog_details shadow">
+                                <a class="d-inline-block" href="blog_details.html">
+                                    <h2 class="blog-head" style="color: #2d2d2d;">Awareness on prevention of corona virus.</h2>
+                                </a>
+                                <p>
+                                    HRH Alh. Muhammadu Abubakar Ibn Grema (Chancellor Yobe State University) during an interactive session on
+                                    creating awareness on how to prevent the spread of Corona Virus.
+                                </p><a class="btn btn-primary" href="post.html">Read more....</a>
+                                <ul class="blog-info-link">
+                                    <li><a href="#"><i class="fa fa-user"></i> Posted by: Information Officer</a></li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <article class="blog_item">
+                            <div class="blog_item_img">
+                                <img class="card-img rounded-0" src="assets/img/blog/single_blog_2.jpg" style="width:750px; height:375px;" alt="">
+                                <a href="blog_details2.html" class="blog_item_date">
+                                    <h3>24</h3>
+                                    <p>Aug, 2019</p>
+                                </a>
+                            </div>
+                            <div data-aos="zoom-out-left" data-aos-duration="300" data-aos-delay="300" data-aos-once="false" data-aos-easing="ease-in-out" data-aos-mirror="true" class="blog_details shadow">
+                                <a class="d-inline-block" href="blog_details2.html">
+                                    <h2 class="blog-head" style="color: #2d2d2d;">Member representing Nangere visiting flood victims.</h2>
+                                </a>
+                                <p>
+                                    Nangere Local Goverment member house of assembly Hon. Saminu visits old Nangere to see how heavy rain collapses many houses..
+                                    May Allah Make it easy for them all. Ameen.
+                                </p><a class="btn btn-primary" href="post.html">Read more....</a>
+                                <ul class="blog-info-link">
+                                    <li><a href="#"><i class="fa fa-user"></i> Posted by: Information Officer</a></li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <article class="blog_item">
+                            <div class="blog_item_img">
+                                <img class="card-img rounded-0" src="assets/img/blog/single_blog_3.jpg" style="width:750px; height:375px;" alt="">
+                                <a href="blog_details3.html" class="blog_item_date">
+                                    <h3>22</h3>
+                                    <p>Aug, 2019</p>
+                                </a>
+                            </div>
+                            <div data-aos="zoom-out-left" data-aos-duration="300" data-aos-delay="300" data-aos-once="false" data-aos-easing="ease-in-out" data-aos-mirror="true" class="blog_details shadow">
+                                <a class="d-inline-block" href="blog_details3.html">
+                                    <h2 class="blog-head" style="color: #2d2d2d;">World Desertification Day 2019</h2>
+                                </a>
+                                <p>
+                                    Launching of World Day to Combat Desertification 2019 hosted by EMIR of Tikau Alh Mohammed Abubakar Ibn Grema at
+                                    Sabon Garin Nangere Yobe State.
+                                </p>
+                                <a class="btn btn-primary" href="post.html">Read more....</a>
+                                <ul class="blog-info-link">
+                                    <li><a href="#"><i class="fa fa-user"></i> Posted by: PRO</a></li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <nav class="blog-pagination justify-content-center d-flex">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a href="#" class="page-link" aria-label="Previous">
+                                        <i class="material-icons">chevron_left</i>
+                                    </a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="#" class="page-link">1</a>
+                                </li>
+                                <li class="page-item active">
+                                    <a href="#" class="page-link">2</a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="#" class="page-link" aria-label="Next">
+                                        <i class="material-icons">chevron_right</i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <hr />
     <div class="footer-basic">
-        <footer class="text-center"><img src="assets/img/hero/loder.png">
+        <footer class="text-center">
+            <img src="assets/img/hero/loder.png">
             <p class="text-center mt-3"><i class="material-icons">location_on</i>&nbsp; Sabon Garin Nangere, Nangere, Yobe State, Nigeria |&nbsp;<i class="material-icons">phone_android</i>&nbsp;+234 803 000 0000 |&nbsp;<i class="material-icons">mail</i>&nbsp;info@tikauemirate.com</p>
         </footer>
     </div>

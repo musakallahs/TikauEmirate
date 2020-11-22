@@ -39,3 +39,11 @@
 .bs4_team_content {
     height: 64%;
 }
+
+.shelf-title {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.card-img, .card-img-top{height: 300px;}
